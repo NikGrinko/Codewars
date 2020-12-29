@@ -10,7 +10,7 @@ function cakes(recipe, available) {
         }
     }
     if (countRecipe <= match) {
-        let b = 5
+        let b = 100
         for (let recipeKey of Object.keys(recipe)) {
             let a = available[recipeKey] / recipe[recipeKey]
             if (a < b) b = a
